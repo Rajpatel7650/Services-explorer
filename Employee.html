@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="style.css" />
+		<link rel="stylesheet" href="Employee.css" />
+		<title>RP site</title>
+	</head>
+	<body>
+		<div class="grid">
+			<header class="header">
+				<i class="fas fa-bars header__menu"></i>
+				<div class="header__search">
+					<input class="header__input" placeholder="Search..." />
+				</div>
+				<div class="header__avatar">
+					<div class="dropdown">
+						<ul class="dropdown__list">
+							<li class="dropdown__list-item">
+								<span class="dropdown__icon"><i class="far fa-user"></i></span>
+								<span class="dropdown__title">my profile</span>
+							</li>
+							<li class="dropdown__list-item">
+								<span class="dropdown__icon">
+									<i class="fas fa-clipboard-list"></i>
+								</span>
+								<span class="dropdown__title">my account</span>
+							</li>
+							<li class="dropdown__list-item">
+								<span class="dropdown__icon">
+									<i class="fas fa-sign-out-alt"></i>
+								</span>
+								<span class="dropdown__title">log out</span>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</header>
+
+			<aside class="sidenav">
+				<div class="sidenav__brand">
+					<i class="fas fa-feather-alt sidenav__brand-icon"></i>
+					<a class="sidenav__brand-link" href="#">
+						RP
+						<span class="text-light">Site</span>
+					</a>
+					<i class="fas fa-times sidenav__brand-close"></i>
+				</div>
+				<div class="sidenav__profile">
+					<div class="sidenav__profile-avatar"></div>
+					<div class="sidenav__profile-title text-light">Raj Patel</div>
+				</div>
+				<div class="row row--align-v-center row--align-h-center">
+					<ul class="navList">
+						<li class="navList__heading">
+							Works
+							<i class="far fa-file-alt"></i>
+						</li>
+						<div class="navList__subheading row row--align-v-center">
+							<span class="navList__subheading-icon">
+								<i class="fas fa-briefcase-medical"></i>
+							</span>
+							<a
+								class="navList__subheading-title"
+								href="index.html"
+								id="nav_color"
+							>
+								About Us
+							</a>
+						</div>
+						<li>
+							<div class="navList__subheading row row--align-v-center">
+								<span class="navList__subheading-icon">
+									<i class="fas fa-briefcase-medical"></i>
+								</span>
+								<a
+									class="navList__subheading-title"
+									id="nav_color"
+									href="Employee.html"
+								>
+									Employee
+								</a>
+							</div>
+						</li>
+						<li>
+							<div class="navList__subheading row row--align-v-center">
+								<span class="navList__subheading-icon">
+									<i class="fas fa-plane-departure"></i>
+								</span>
+								<a
+									class="navList__subheading-title"
+									id="nav_color"
+									href="User.html"
+								>
+									Users
+								</a>
+							</div>
+						</li>
+						<li>
+							<div class="navList__subheading row row--align-v-center">
+								<span class="navList__subheading-icon">
+									<i class="far fa-angry"></i>
+								</span>
+								<a
+									class="navList__subheading-title"
+									id="nav_color"
+									href="Features.html"
+								>
+									Featured
+								</a>
+							</div>
+						</li>
+
+						<li class="navList__heading">
+							CART
+							<i class="far fa-envelope"></i>
+						</li>
+						<li>
+							<div class="navList__subheading row row--align-v-center">
+								<span class="navList__subheading-icon">
+									<i class="fas fa-envelope"></i>
+								</span>
+								<a
+									class="navList__subheading-title"
+									id="nav_color"
+									href="Payment.html"
+								>
+									Payment Method
+								</a>
+							</div>
+						</li>
+						<li class="navList__heading">
+							Account
+							<i class="far fa-image"></i>
+						</li>
+						<li>
+							<div class="navList__subheading row row--align-v-center">
+								<span class="navList__subheading-icon">
+									<i class="fas fa-mountain"></i>
+								</span>
+								<a
+									class="navList__subheading-title"
+									id="nav_color"
+									href="Profile.html"
+								>
+									Profile
+								</a>
+							</div>
+						</li>
+						<li class="navList__heading">
+							Other Pages
+							<i class="fas fa-chart-bar"></i>
+						</li>
+						<li>
+							<div class="navList__subheading row row--align-v-center">
+								<span class="navList__subheading-icon">
+									<i class="fas fa-credit-card"></i>
+								</span>
+								<a class="navList__subheading-title" id="nav_color" href="#">
+									Blog
+								</a>
+							</div>
+						</li>
+						<li>
+							<div class="navList__subheading row row--align-v-center">
+								<span class="navList__subheading-icon">
+									<i class="fas fa-phone"></i>
+								</span>
+								<a
+									class="navList__subheading-title"
+									id="nav_color"
+									href="liveChat.html"
+								>
+									Live Chat
+								</a>
+							</div>
+						</li>
+						<li>
+							<div class="navList__subheading row row--align-v-center">
+								<span class="navList__subheading-icon">
+									<i class="fas fa-plane"></i>
+								</span>
+								<a class="navList__subheading-title" id="nav_color" href="#">
+									Facebook
+								</a>
+							</div>
+						</li>
+						<li>
+							<div class="navList__subheading row row--align-v-center">
+								<span class="navList__subheading-icon">
+									<i class="fas fa-plane"></i>
+								</span>
+								<a
+									class="navList__subheading-title"
+									href="mailto:"
+									id="nav_color"
+								>
+									Gmail
+								</a>
+							</div>
+						</li>
+						<li>
+							<div class="navList__subheading row row--align-v-center">
+								<span class="navList__subheading-icon">
+									<i class="fas fa-plane"></i>
+								</span>
+								<a class="navList__subheading-title" id="nav_color" href="#">
+									Twitter
+								</a>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</aside>
+
+			<main class="main">
+				<div class="main-header">
+					<div class="main-header__intro-wrapper">
+						<div class="main-header__welcome">
+							<div class="main-header__welcome-title text-light">
+								Welcome,
+								<strong>Raj Patel</strong>
+							</div>
+							<div class="main-header__welcome-subtitle text-light">
+								How are you today?
+							</div>
+						</div>
+						<div class="quickview">
+							<div class="quickview__item">
+								<div class="quickview__item-total">64</div>
+								<div class="quickview__item-description">
+									<i class="far fa-calendar-alt"></i>
+									<span class="text-light">Happy Customer</span>
+								</div>
+							</div>
+							<div class="quickview__item">
+								<div class="quickview__item-total">10</div>
+								<div class="quickview__item-description">
+									<i class="far fa-comment"></i>
+									<span class="text-light">Employee</span>
+								</div>
+							</div>
+							<div class="quickview__item">
+								<div class="quickview__item-total">37&deg;</div>
+								<div class="quickview__item-description">
+									<i class="fas fa-map-marker-alt"></i>
+									<span class="text-light">India</span>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<section id="team" class="team">
+					<h1 class="heading">Employee</h1>
+
+					<div class="row">
+						<div class="card">
+							<div class="images">
+								<img
+									src="https://zos.alipayobjects.com/rmsportal/jkjgkEfvpUPVyRjUImniVslZfWPnJuuZ.png"
+									alt="Mohit"
+								/>
+							</div>
+							<div class="info">
+								<h3>Mohit</h3>
+								<span>Doctor</span>
+
+								<div class="icons">
+									<a href="#" class="fab fa-facebook" target="blank"></a>
+									<a href="#" class="fab fa-instagram" target="blank"></a>
+									<a href="#" class="fab fa-github" target="blank"></a>
+									<a href="#" class="fab fa-twitter" target="blank"></a>
+								</div>
+							</div>
+						</div>
+
+						<div class="card">
+							<div class="images">
+								<img
+									src="https://zos.alipayobjects.com/rmsportal/jkjgkEfvpUPVyRjUImniVslZfWPnJuuZ.png"
+									alt="Randeep"
+								/>
+							</div>
+							<div class="info">
+								<h3>Randeep</h3>
+								<span>Barber</span>
+
+								<div class="icons">
+									<a href="#" class="fab fa-facebook" target="blank"></a>
+									<a href="#" class="fab fa-instagram" target="blank"></a>
+									<a href="#" class="fab fa-github" target="blank"></a>
+									<a href="#" class="fab fa-twitter" target="blank"></a>
+								</div>
+							</div>
+						</div>
+
+						<div class="card">
+							<div class="images">
+								<img
+									src="https://zos.alipayobjects.com/rmsportal/jkjgkEfvpUPVyRjUImniVslZfWPnJuuZ.png"
+									alt="Nitin"
+								/>
+							</div>
+							<div class="info">
+								<h3>Nitin</h3>
+								<span>Carpenter</span>
+
+								<div class="icons">
+									<a href="#" class="fab fa-facebook" target="blank"></a>
+									<a href="#" class="fab fa-instagram" target="blank"></a>
+									<a href="#" class="fab fa-github" target="blank"></a>
+									<a href="#" class="fab fa-twitter" target="blank"></a>
+								</div>
+							</div>
+						</div>
+
+						<div class="card">
+							<div class="images">
+								<img
+									src="https://zos.alipayobjects.com/rmsportal/jkjgkEfvpUPVyRjUImniVslZfWPnJuuZ.png"
+									alt="Ravinder"
+								/>
+							</div>
+							<div class="info">
+								<h3>Ravinder</h3>
+								<span>Event Manager</span>
+								<div class="icons">
+									<a href="#" class="fab fa-facebook" target="blank"></a>
+									<a href="#" class="fab fa-instagram" target="blank"></a>
+									<a href="#" class="fab fa-github" target="blank"></a>
+									<a href="#" class="fab fa-twitter" target="blank"></a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+			</main>
+			<footer class="footer">
+				<p>
+					<span class="footer__copyright">&copy;</span>
+					2021 Raj
+				</p>
+				<p>
+					Crafted
+					<i class="fas fa-heart footer__icon"></i>
+					by
+					<a href="#" target="_blank" class="footer__signature">Raj Patel</a>
+				</p>
+			</footer>
+		</div>
+	</body>
+	<script src="script.js"></script>
+</html>

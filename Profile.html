@@ -1,0 +1,504 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="style.css" />
+		<link rel="stylesheet" href="profile.css" />
+		<title>RP site</title>
+	</head>
+	<body>
+		<div class="grid">
+			<header class="header">
+				<i class="fas fa-bars header__menu"></i>
+				<div class="header__search">
+					<input class="header__input" placeholder="Search..." />
+				</div>
+				<div class="header__avatar">
+					<div class="dropdown">
+						<ul class="dropdown__list">
+							<li class="dropdown__list-item">
+								<span class="dropdown__icon"><i class="far fa-user"></i></span>
+								<span class="dropdown__title">my profile</span>
+							</li>
+							<li class="dropdown__list-item">
+								<span class="dropdown__icon">
+									<i class="fas fa-clipboard-list"></i>
+								</span>
+								<span class="dropdown__title">my account</span>
+							</li>
+							<li class="dropdown__list-item">
+								<span class="dropdown__icon">
+									<i class="fas fa-sign-out-alt"></i>
+								</span>
+								<span class="dropdown__title">log out</span>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</header>
+
+			<aside class="sidenav">
+				<div class="sidenav__brand">
+					<i class="fas fa-feather-alt sidenav__brand-icon"></i>
+					<a class="sidenav__brand-link" href="#">
+						RP
+						<span class="text-light">Site</span>
+					</a>
+					<i class="fas fa-times sidenav__brand-close"></i>
+				</div>
+				<div class="sidenav__profile">
+					<div class="sidenav__profile-avatar"></div>
+					<div class="sidenav__profile-title text-light">Raj Patel</div>
+				</div>
+				<div class="row row--align-v-center row--align-h-center">
+					<ul class="navList">
+						<li class="navList__heading">
+							Works
+							<i class="far fa-file-alt"></i>
+						</li>
+						<div class="navList__subheading row row--align-v-center">
+							<span class="navList__subheading-icon">
+								<i class="fas fa-briefcase-medical"></i>
+							</span>
+							<a
+								class="navList__subheading-title"
+								href="index.html"
+								id="nav_color"
+							>
+								About Us
+							</a>
+						</div>
+						<li>
+							<div class="navList__subheading row row--align-v-center">
+								<span class="navList__subheading-icon">
+									<i class="fas fa-briefcase-medical"></i>
+								</span>
+								<a
+									class="navList__subheading-title"
+									id="nav_color"
+									href="Employee.html"
+								>
+									Employee
+								</a>
+							</div>
+						</li>
+						<li>
+							<div class="navList__subheading row row--align-v-center">
+								<span class="navList__subheading-icon">
+									<i class="fas fa-plane-departure"></i>
+								</span>
+								<a
+									class="navList__subheading-title"
+									id="nav_color"
+									href="User.html"
+								>
+									Users
+								</a>
+							</div>
+						</li>
+						<li>
+							<div class="navList__subheading row row--align-v-center">
+								<span class="navList__subheading-icon">
+									<i class="far fa-angry"></i>
+								</span>
+								<a
+									class="navList__subheading-title"
+									id="nav_color"
+									href="Features.html"
+								>
+									Featured
+								</a>
+							</div>
+						</li>
+
+						<li class="navList__heading">
+							CART
+							<i class="far fa-envelope"></i>
+						</li>
+						<li>
+							<div class="navList__subheading row row--align-v-center">
+								<span class="navList__subheading-icon">
+									<i class="fas fa-envelope"></i>
+								</span>
+								<a
+									class="navList__subheading-title"
+									id="nav_color"
+									href="Payment.html"
+								>
+									Payment Method
+								</a>
+							</div>
+						</li>
+						<li class="navList__heading">
+							Account
+							<i class="far fa-image"></i>
+						</li>
+						<li>
+							<div class="navList__subheading row row--align-v-center">
+								<span class="navList__subheading-icon">
+									<i class="fas fa-mountain"></i>
+								</span>
+								<a
+									class="navList__subheading-title"
+									id="nav_color"
+									href="Profile.html"
+								>
+									Profile
+								</a>
+							</div>
+						</li>
+						<li class="navList__heading">
+							Other Pages
+							<i class="fas fa-chart-bar"></i>
+						</li>
+						<li>
+							<div class="navList__subheading row row--align-v-center">
+								<span class="navList__subheading-icon">
+									<i class="fas fa-credit-card"></i>
+								</span>
+								<a class="navList__subheading-title" id="nav_color" href="#">
+									Blog
+								</a>
+							</div>
+						</li>
+						<li>
+							<div class="navList__subheading row row--align-v-center">
+								<span class="navList__subheading-icon">
+									<i class="fas fa-phone"></i>
+								</span>
+								<a
+									class="navList__subheading-title"
+									id="nav_color"
+									href="liveChat.html"
+								>
+									Live Chat
+								</a>
+							</div>
+						</li>
+						<li>
+							<div class="navList__subheading row row--align-v-center">
+								<span class="navList__subheading-icon">
+									<i class="fas fa-plane"></i>
+								</span>
+								<a class="navList__subheading-title" id="nav_color" href="#">
+									Facebook
+								</a>
+							</div>
+						</li>
+						<li>
+							<div class="navList__subheading row row--align-v-center">
+								<span class="navList__subheading-icon">
+									<i class="fas fa-plane"></i>
+								</span>
+								<a
+									class="navList__subheading-title"
+									href="mailto:"
+									id="nav_color"
+								>
+									Gmail
+								</a>
+							</div>
+						</li>
+						<li>
+							<div class="navList__subheading row row--align-v-center">
+								<span class="navList__subheading-icon">
+									<i class="fas fa-plane"></i>
+								</span>
+								<a class="navList__subheading-title" id="nav_color" href="#">
+									Twitter
+								</a>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</aside>
+
+			<main class="main">
+				<div class="main-header">
+					<div class="main-header__intro-wrapper">
+						<div class="main-header__welcome">
+							<div class="main-header__welcome-title text-light">
+								Welcome,
+								<strong>Raj Patel</strong>
+							</div>
+							<div class="main-header__welcome-subtitle text-light">
+								How are you today?
+							</div>
+						</div>
+						<div class="quickview">
+							<div class="quickview__item">
+								<div class="quickview__item-total">64</div>
+								<div class="quickview__item-description">
+									<i class="far fa-calendar-alt"></i>
+									<span class="text-light">Happy Customer</span>
+								</div>
+							</div>
+							<div class="quickview__item">
+								<div class="quickview__item-total">10</div>
+								<div class="quickview__item-description">
+									<i class="far fa-comment"></i>
+									<span class="text-light">Employee</span>
+								</div>
+							</div>
+							<div class="quickview__item">
+								<div class="quickview__item-total">37&deg;</div>
+								<div class="quickview__item-description">
+									<i class="fas fa-map-marker-alt"></i>
+									<span class="text-light">India</span>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="container">
+					<table>
+						<tr>
+							<td>
+								<section>
+									<label for="fileToUpload">
+										<i class="fa fa-camera"></i>
+										<input
+											type="file"
+											id="fileToUpload"
+											style="visibility: hidden"
+											accept=".png,.jpg,jpeg,.PNG,.JPEG"
+											name="fileToUpload"
+											onchange="document.getElementById('blah').src = window.URL.createObjectURL(this.files[0])"
+										/>
+									</label>
+									<img
+										src="https://i.ibb.co/yNGW4gg/avatar.png"
+										id="blah"
+										alt="Avatar"
+									/>
+								</section>
+								<h1>Raj Dineshbhai Patel</h1>
+								<h3>Founder</h3>
+							</td>
+							<td>
+								<ul class="comman">
+									<li class="comman">
+										<b>Full name</b>
+										<input
+											type="text"
+											name="fname"
+											id="fname"
+											maxlength="100"
+											value="Raj Dineshbhai Patel"
+											required
+										/>
+										<i
+											class="fa fa-edit"
+											id="edit1"
+											onclick="document.getElementById('fname').style.pointerEvents='auto';document.getElementById('fname').focus();this.style.display='none'; document.getElementById('check1').style.display='inline-block';"
+										></i>
+										<i
+											class="fa fa-check"
+											style="display: none"
+											id="check1"
+											onclick="document.getElementById('edit1').style.display='inline-block';this.style.display='none';document.getElementById('fname').style.pointerEvents='none';"
+										></i>
+									</li>
+									<li class="comman">
+										<b>Email</b>
+										<input
+											type="email"
+											name="email"
+											id="email"
+											maxlength="150"
+											value="hello@Company.com"
+											required
+										/>
+									</li>
+									<li class="comman">
+										<b>Contact number</b>
+										<input
+											type="tel"
+											name="mobile"
+											id="mobile"
+											maxlength="10"
+											value="0123456789"
+											required
+										/>
+										<i
+											class="fa fa-edit"
+											id="edit2"
+											onclick="document.getElementById('mobile').style.pointerEvents='auto';document.getElementById('mobile').focus();this.style.display='none'; document.getElementById('check2').style.display='inline-block';"
+										></i>
+										<i
+											class="fa fa-check"
+											style="display: none"
+											id="check2"
+											onclick="document.getElementById('edit2').style.display='inline-block';document.getElementById('mobile').style.pointerEvents='none';this.style.display='none';"
+										></i>
+									</li>
+									<li class="comman">
+										<b>Address</b>
+										<input
+											type="text"
+											name="address"
+											id="address"
+											maxlength="250"
+											value="Street, Pincode, Province/State, Country"
+											required
+										/>
+										<i
+											class="fa fa-edit"
+											id="edit3"
+											onclick="document.getElementById('address').style.pointerEvents='auto';document.getElementById('address').focus();this.style.display='none'; document.getElementById('check3').style.display='inline-block';"
+										></i>
+										<i
+											class="fa fa-check"
+											style="display: none"
+											id="check3"
+											onclick="document.getElementById('edit3').style.display='inline-block';document.getElementById('address').style.pointerEvents='none';this.style.display='none';"
+										></i>
+									</li>
+								</ul>
+							</td>
+						</tr>
+						<tr>
+							<td class="section2">
+								<h2 style="text-align: left">PUBLISH NEW FEATURE</h2>
+								<ul class="comman">
+									<li class="comman">
+										<select>
+											<option value="0">Choose a category</option>
+											<option value="fruits">Fruits</option>
+											<option value="groceries">Groceries</option>
+											<option value="vegetables">Vegetables</option>
+										</select>
+									</li>
+									<li class="comman">
+										<label for="productimage">Upload the thumbnail</label>
+										<input
+											type="file"
+											name="productimage"
+											id="productimage"
+											accept=".jpg,.JPG,.png,.PNG,.jpeg,.JPEG"
+											required
+										/>
+									</li>
+									<li class="comman">
+										<label for="title">Feature Title</label>
+										<input
+											type="text"
+											id="title"
+											name="title"
+											placeholder="eg:Farm Tomoto"
+											maxlength="30"
+											required=""
+										/>
+									</li>
+									<li class="comman">
+										<label for="tags">Tags</label>
+										<input
+											type="text"
+											id="tags"
+											name="tags"
+											placeholder="eg:Home,grocery,outdoor"
+											maxlength="50"
+											required=""
+										/>
+									</li>
+
+									<li class="comman">
+										<label for="description">Description</label>
+										<textarea
+											id="description"
+											name="description"
+											placeholder="Tell something about your product"
+											maxlength="250"
+											required=""
+										></textarea>
+									</li>
+								</ul>
+								<button class="btn" style="width: 150px">SUBMIT</button>
+							</td>
+							<td class="inframe">
+								<h2>PRODUCTS IN FRAME</h2>
+								<div class="card">
+									<img src="https://i.ibb.co/pwHsGgc/01.jpg" alt="NO PREVIEW" />
+									<section class="card_content">
+										<h3>grocery</h3>
+										<ul class="comman">
+											<li class="comman">
+												<b>Published Date:</b>
+												12/05/2021
+											</li>
+											<li class="comman">
+												<b>Quantity:</b>
+												<input
+													type="tel"
+													name="updatequantity"
+													id="updatequantity"
+													value="1500"
+													required
+												/>
+												<i
+													class="fa fa-edit"
+													id="uedit1"
+													onclick="document.getElementById('updatequantity').style.pointerEvents='auto';document.getElementById('updatequantity').focus();this.style.display='none'; document.getElementById('ucheck1').style.display='inline-block';"
+												></i>
+												<i
+													class="fa fa-check"
+													style="display: none"
+													id="ucheck1"
+													onclick="document.getElementById('uedit1').style.display='inline-block';document.getElementById('updatequantity').style.pointerEvents='none';this.style.display='none';"
+												></i>
+											</li>
+											<li class="comman">
+												<b>Price:</b>
+												<input
+													type="tel"
+													name="updateprice"
+													id="updateprice"
+													value="400"
+													required
+												/>
+												<i
+													class="fa fa-edit"
+													id="uedit2"
+													onclick="document.getElementById('updateprice').style.pointerEvents='auto';document.getElementById('updateprice').focus();this.style.display='none'; document.getElementById('ucheck2').style.display='inline-block';"
+												></i>
+												<i
+													class="fa fa-check"
+													style="display: none"
+													id="ucheck2"
+													onclick="document.getElementById('uedit2').style.display='inline-block';document.getElementById('updateprice').style.pointerEvents='none';this.style.display='none';"
+												></i>
+											</li>
+										</ul>
+										<button class="btn">UPDATE</button>
+										<button class="btn" style="background: #960c06">
+											DELETE
+										</button>
+									</section>
+								</div>
+							</td>
+						</tr>
+					</table>
+				</div>
+			</main>
+			<footer class="footer">
+				<p>
+					<span class="footer__copyright">&copy;</span>
+					2021 Raj
+				</p>
+				<p>
+					Crafted
+					<i class="fas fa-heart footer__icon"></i>
+					by
+					<a href="#" target="_blank" class="footer__signature">Raj Patel</a>
+				</p>
+			</footer>
+		</div>
+	</body>
+	<script src="mainscript.js"></script>
+	<script src="profile.js"></script>
+	<!--PLUGIN-->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+</html>
